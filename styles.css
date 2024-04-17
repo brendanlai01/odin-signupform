@@ -1,0 +1,16 @@
+body{
+    font-size: 24px;
+}
+
+.image{
+    background-image: url("syuhei-inoue-kaoHI0iHJPM-unsplash.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image footer{
+    color: green;;
+    position:  relative;
+    top: 50vh;
+
+}
