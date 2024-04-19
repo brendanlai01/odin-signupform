@@ -1,16 +1,51 @@
+@font-face{
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf);
+}
+
 body{
     font-size: 24px;
     padding: 0px;
     margin: 0px;
 }
 
-.signup-form{
+.signup-body{
+    display: flex;
 }
 
-.image img{
+.image{
+    position: relative;
+}
+
+.banner-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner{
     object-fit: contain;
     height: 100vh;
     display: block;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.image:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    font-size: 100px;
+    font-family: norse-bold;
+    text-align: center;
 }
 
 .form{
