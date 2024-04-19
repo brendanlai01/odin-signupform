@@ -1,16 +1,18 @@
 body{
     font-size: 24px;
+    padding: 0px;
+    margin: 0px;
 }
 
-.image{
-    background-image: url("syuhei-inoue-kaoHI0iHJPM-unsplash.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+.signup-form{
 }
 
-.image footer{
-    color: green;;
-    position:  relative;
-    top: 50vh;
+.image img{
+    object-fit: contain;
+    height: 100vh;
+    display: block;
+}
 
+.form{
+    border: solid red;
 }
