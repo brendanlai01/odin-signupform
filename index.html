@@ -63,5 +63,27 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let confirmPass = document.getElementById('confirm');
+        let password = document.getElementById('password');
+        let msg = document.getElementById('msg');
+    
+        function passCheck(){
+            confirmPass.addEventListener("keyup", ()=> {
+                if(confirmPass.value != password.value){
+                    confirmPass.setAttribute("style", "border: solid 2px red;");
+                    msg.setAttribute("style", "color: red; font-size: 1rem;");
+                    msg.textContent = "Passwords don't match";
+                }
+                else if(confirmPass.value == password.value){
+                    confirmPass.setAttribute("style", "border: solid 2px green;");
+                    msg.textContent = '';
+                }
+            });
+        }
+    
+        passCheck();
+    </script>
 </body>
 </html>
