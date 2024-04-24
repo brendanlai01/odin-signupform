@@ -30,9 +30,10 @@ body{
 }
 
 #banner{
-    object-fit: contain;
+    background-image: url(./valentin-beauvais-yVUQlyRlJSw-unsplash.jpg);
+    background-size: cover;
+    width: 35vw;
     height: 100vh;
-    display: block;
 }
 
 #logo{
